@@ -1,9 +1,12 @@
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.cucumber.junit.Cucumber;
 import org.junit.Assert;
-import java.io.IOException;
+import org.junit.runner.RunWith;
 
+import java.io.IOException;
+@RunWith(Cucumber.class)
 public class MyStepdefs{
     RequestDefinition requestDefinition;
     int result;
